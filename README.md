@@ -12,6 +12,6 @@ Mark requires the following:
 ## Instructions
 
 - Install all prerequisites.
-- Download this package: `composer create-project tiborjaszai/mark-project myapp`
+- Download this package: `composer create-project tiborjaszai/mark-project:dev-main myapp`
 - Install the dependencies: `composer install`
 - Convert markdown files to html pages: `./mark`
