@@ -1,0 +1,18 @@
+{
+    "name": "tiborjaszai/mark-project",
+    "description": "Mark is a simple static site generator based on symfony components.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tibor Jaszai",
+            "email": "tiborjaszaidev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "tiborjaszai/mark-core": "dev-main"
+    }
+}

@@ -1,0 +1,8 @@
+# IDE
+.idea
+.vscode
+
+# Vendor, log and cache files
+/build
+/var
+/vendor

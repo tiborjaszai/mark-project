@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use JTG\Mark\Kernel;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+if ('cli' !== php_sapi_name()) {
+    return;
+}
+
+(new Kernel(projectDir: __DIR__, environment: 'dev'))->run();
