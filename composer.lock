@@ -1636,12 +1636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tiborjaszai/mark-core.git",
-                "reference": "88ebed522c41e784c6bf1b7b191b642bd980a27a"
+                "reference": "92d4792199037ea3741da782bb5ec2cc44c7d8e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/88ebed522c41e784c6bf1b7b191b642bd980a27a",
-                "reference": "88ebed522c41e784c6bf1b7b191b642bd980a27a",
+                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/92d4792199037ea3741da782bb5ec2cc44c7d8e7",
+                "reference": "92d4792199037ea3741da782bb5ec2cc44c7d8e7",
                 "shasum": ""
             },
             "require": {
@@ -1675,12 +1675,12 @@
                     "email": "tiborjaszaidev@gmail.com"
                 }
             ],
-            "description": "Mark is a simple static site generator based on symfony components.",
+            "description": "Core package for the \"Mark\" project. Mark is a simple static site generator.",
             "support": {
                 "issues": "https://github.com/tiborjaszai/mark-core/issues",
                 "source": "https://github.com/tiborjaszai/mark-core/tree/main"
             },
-            "time": "2022-11-13T22:01:09+00:00"
+            "time": "2022-11-13T22:16:26+00:00"
         },
         {
             "name": "twig/twig",
