@@ -14,4 +14,4 @@ Mark requires the following:
 - Install all prerequisites.
 - Download this package: `composer create-project tiborjaszai/mark-project:dev-main myapp`
 - Install the dependencies: `composer install`
-- Convert markdown files to html pages: `./mark`
+- Convert markdown files to html pages: `bin/console mark:generate`

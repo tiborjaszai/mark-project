@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use JTG\Mark\Kernel\Kernel;
+use JTG\Mark\MarkApplication;
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+if ('cli' !== php_sapi_name()) {
+    return;
+}
+
+$kernel = new Kernel(projectDir: dirname(__DIR__), environment: 'dev');
+$application = $kernel->getContainer()->get(MarkApplication::class);
+
+exit($application->run());
