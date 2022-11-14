@@ -1,0 +1,4 @@
+collections:
+    - name: posts
+      slug: posts
+      template: /dist/posts
