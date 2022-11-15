@@ -2109,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tiborjaszai/mark-core.git",
-                "reference": "b527e7613d83ebca1cabd00f5991b799db898a58"
+                "reference": "b28b51af8d8b727e41bbdc1b8b04d5da18b33652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/b527e7613d83ebca1cabd00f5991b799db898a58",
-                "reference": "b527e7613d83ebca1cabd00f5991b799db898a58",
+                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/b28b51af8d8b727e41bbdc1b8b04d5da18b33652",
+                "reference": "b28b51af8d8b727e41bbdc1b8b04d5da18b33652",
                 "shasum": ""
             },
             "require": {
@@ -2126,6 +2126,7 @@
                 "symfony/dependency-injection": "^6.1",
                 "symfony/filesystem": "^6.1",
                 "symfony/finder": "^6.1",
+                "symfony/string": "^6.1",
                 "symfony/yaml": "^6.1",
                 "twig/twig": "^3.4"
             },
@@ -2154,7 +2155,7 @@
                 "issues": "https://github.com/tiborjaszai/mark-core/issues",
                 "source": "https://github.com/tiborjaszai/mark-core/tree/main"
             },
-            "time": "2022-11-14T22:35:49+00:00"
+            "time": "2022-11-15T20:59:45+00:00"
         },
         {
             "name": "twig/twig",
