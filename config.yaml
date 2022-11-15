@@ -1,4 +1,16 @@
+base_urL: http://127.0.0.1
+title: Mark site
+description: Mark site description
+
+environment: dev
+language: en
+
+dist_dir: /dist
+data_dir: /data
+collections_dir: ''
+templates_dir: /templates
+output_dir: /build
+
 collections:
     - name: posts
       slug: posts
-      template: /dist/posts
