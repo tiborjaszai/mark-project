@@ -1,6 +1,7 @@
-base_urL: http://127.0.0.1
-title: Mark site
-description: Mark site description
+site:
+    base_url: http://127.0.0.1:8000
+    title: Mark site
+    description: Mark site description
 
 environment: dev
 language: en

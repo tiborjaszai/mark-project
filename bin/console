@@ -12,7 +12,7 @@ if ('cli' !== php_sapi_name()) {
     return;
 }
 
-$kernel = new Kernel(projectDir: dirname(__DIR__));
+$kernel = new Kernel(appRootDir: dirname(__DIR__));
 $application = $kernel->getContainer()->get(MarkApplication::class);
 
 exit($application->run());

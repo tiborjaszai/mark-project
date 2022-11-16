@@ -2109,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tiborjaszai/mark-core.git",
-                "reference": "b28b51af8d8b727e41bbdc1b8b04d5da18b33652"
+                "reference": "b7026872ee0a0e0fe43c5e837209ae63cc26d6ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/b28b51af8d8b727e41bbdc1b8b04d5da18b33652",
-                "reference": "b28b51af8d8b727e41bbdc1b8b04d5da18b33652",
+                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/b7026872ee0a0e0fe43c5e837209ae63cc26d6ae",
+                "reference": "b7026872ee0a0e0fe43c5e837209ae63cc26d6ae",
                 "shasum": ""
             },
             "require": {
@@ -2155,7 +2155,7 @@
                 "issues": "https://github.com/tiborjaszai/mark-core/issues",
                 "source": "https://github.com/tiborjaszai/mark-core/tree/main"
             },
-            "time": "2022-11-15T20:59:45+00:00"
+            "time": "2022-11-16T19:51:09+00:00"
         },
         {
             "name": "twig/twig",
