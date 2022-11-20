@@ -1,4 +1,6 @@
 site:
+    port: 8000
+
     title: Mark demo site
     description: Mark demo site description
 

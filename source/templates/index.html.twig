@@ -18,7 +18,13 @@
         <ul>
             {% for collection in context.collections %}
                 {% for item in collection.items %}
-                    <li>{{ item.relativePathname }}</li>
+                    <li>
+                        {% if item.params.url is defined %}
+                            <a href="{{ item.params.url }}">{{ item.params.title }}</a>
+                        {% else %}
+                            {{ item.relativePathname }}
+                        {% endif %}
+                    </li>
                 {% endfor %}
             {% endfor %}
         </ul>
