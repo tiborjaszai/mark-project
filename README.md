@@ -15,3 +15,4 @@ Mark requires the following:
 - Download this package: `composer create-project tiborjaszai/mark-project:dev-main myapp`
 - Install the dependencies: `composer install`
 - Convert markdown files to html pages: `bin/console mark:generate` or `APP_ENV=prod bin/console mark:generate`
+- Run built-in web server: `php -S localhost:8000 -t build/`
