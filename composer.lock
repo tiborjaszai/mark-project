@@ -797,16 +797,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.13.0",
+            "version": "1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "33aefcdab42900e36366d0feab6206e2dd68f947"
+                "reference": "aac44118344d197e6d5f7c6cee91885f0a89acdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/33aefcdab42900e36366d0feab6206e2dd68f947",
-                "reference": "33aefcdab42900e36366d0feab6206e2dd68f947",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/aac44118344d197e6d5f7c6cee91885f0a89acdd",
+                "reference": "aac44118344d197e6d5f7c6cee91885f0a89acdd",
                 "shasum": ""
             },
             "require": {
@@ -836,9 +836,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.13.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.13.1"
             },
-            "time": "2022-10-21T09:57:39+00:00"
+            "time": "2022-11-20T08:52:26+00:00"
         },
         {
             "name": "psr/cache",
@@ -2270,12 +2270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tiborjaszai/mark-core.git",
-                "reference": "c4a8c8873b543992cc870443595a007509e5a7a2"
+                "reference": "6aeb81606d8695df3a1dba773c7013c7671b48a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/c4a8c8873b543992cc870443595a007509e5a7a2",
-                "reference": "c4a8c8873b543992cc870443595a007509e5a7a2",
+                "url": "https://api.github.com/repos/tiborjaszai/mark-core/zipball/6aeb81606d8695df3a1dba773c7013c7671b48a4",
+                "reference": "6aeb81606d8695df3a1dba773c7013c7671b48a4",
                 "shasum": ""
             },
             "require": {
@@ -2318,7 +2318,7 @@
                 "issues": "https://github.com/tiborjaszai/mark-core/issues",
                 "source": "https://github.com/tiborjaszai/mark-core/tree/main"
             },
-            "time": "2022-11-19T01:01:58+00:00"
+            "time": "2022-11-20T18:22:23+00:00"
         },
         {
             "name": "twig/twig",
