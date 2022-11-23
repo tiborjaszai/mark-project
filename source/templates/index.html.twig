@@ -13,19 +13,39 @@
 
         {{ node.content }}
 
-        <h2>Files:</h2>
+        <h2>Items:</h2>
 
         <ul>
             {% for collection in context.collections %}
                 {% for item in collection.items %}
+                    {% set url = urlGenerator.generate(collection.name, { id: item.routeId }) %}
+
                     <li>
-                        {% if item.params.url is defined %}
-                            <a href="{{ item.params.url }}">{{ item.params.title }}</a>
+                        {% if url %}
+                            <a href="{{ url }}">{{ item.params.title ?? item.id }}</a>
                         {% else %}
-                            {{ item.relativePathname }}
+                            Item not found.
                         {% endif %}
                     </li>
                 {% endfor %}
+            {% endfor %}
+        </ul>
+
+        <h2>Posts:</h2>
+
+        <ul>
+            {% set collection = context.getCollection('posts') %}
+
+            {% for item in collection.items %}
+                {% set url = urlGenerator.generate(collection.name, { id: item.routeId }) %}
+
+                <li>
+                    {% if url %}
+                        <a href="{{ url }}">{{ item.params.title ?? item.id }}</a>
+                    {% else %}
+                        Post not found.
+                    {% endif %}
+                </li>
             {% endfor %}
         </ul>
 
