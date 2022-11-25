@@ -8,3 +8,6 @@ collections:
     -   name: posts
         template: default_template
         output: true
+
+    -   name: assets
+        output: true

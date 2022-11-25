@@ -4,5 +4,8 @@
 
 # Vendor, log and cache files
 /build
+/source/assets/build/
+!/source/assets/build/.gitkeep
 /var
+/node_modules
 /vendor
