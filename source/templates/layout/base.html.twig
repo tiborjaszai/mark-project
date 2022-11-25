@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ context.appConfig.site.locale }}">
+    <head>
+        <meta charset="{{ context.appConfig.encoding }}">
+        {% block meta %}
+            {% set meta = context.getData('meta') %}
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="{{ meta.description }}">
+            <meta name="author" content="{{ meta.author }}">
+        {% endblock %}
+
+        {% block title %}
+            <title>{{ context.appConfig.site.title }}</title>
+        {% endblock title %}
+
+        {% block stylesheets %}
+            {# TODO: asset component #}
+            <link rel="stylesheet" href="/assets/build/app.css">
+        {% endblock %}
+    </head>
+    <body>
+        {% block navigation %}
+            {% include 'partials/navigation.html.twig' %}
+        {% endblock navigation %}
+
+        <div class="container mt-5">
+            {% block content %}{% endblock content %}
+
+            {% block footer %}
+                {% include 'partials/footer.html.twig' %}
+            {% endblock footer %}
+        </div>
+
+        {% block javascripts %}
+            {# TODO: asset component #}
+            <script src="/assets/build/runtime.js" defer></script>
+            <script src="/assets/build/app.js" defer></script>
+        {% endblock %}
+    </body>
+</html>

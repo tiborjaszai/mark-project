@@ -1,9 +1,8 @@
 ---
 title: Lorem ipsum 👋
+template: posts/show
 date: 2022-11-20
 ---
-
-## Lorem ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus magna, tincidunt id volutpat sodales, ultricies et lacus. Donec ut imperdiet lacus. In hac habitasse platea dictumst. Integer ornare sapien urna, sed vestibulum ex facilisis non. Sed at eros ut leo euismod pellentesque. Curabitur sit amet mi ac neque ullamcorper porttitor sit amet sed orci. Nulla tempus tristique sapien vitae pharetra. Donec porttitor vehicula accumsan. In imperdiet blandit purus et maximus. Curabitur et congue massa. Suspendisse facilisis neque nec mauris rhoncus tincidunt. Cras rutrum orci at augue cursus sollicitudin.
 

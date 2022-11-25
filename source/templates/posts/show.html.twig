@@ -1,0 +1,11 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block title %}
+    <title>{{ node.title ?? context.appConfig.site.title }}</title>
+{% endblock %}
+
+{% block content %}
+    <h1>{{ node.title }}</h1>
+
+    {{ node.content }}
+{% endblock %}

@@ -9,26 +9,6 @@
 
     {{ node.content }}
 
-    <h2>Items:</h2>
-
-    <ul>
-        {% for collection in context.collections %}
-            {% for item in collection.items %}
-                {% set url = urlGenerator.generate('node_show', { id: item.routeId }) %}
-
-                <li>
-                    {% if url %}
-                        <a href="{{ url }}">{{ item.params.title ?? item.id }}</a>
-                    {% else %}
-                        Item not found.
-                    {% endif %}
-                </li>
-            {% endfor %}
-        {% endfor %}
-    </ul>
-
-    <h2>Posts:</h2>
-
     <ul>
         {% set collection = context.getCollection('posts') %}
 

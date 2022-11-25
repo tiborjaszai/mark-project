@@ -6,13 +6,13 @@ declare(strict_types=1);
 use JTG\Mark\Kernel\Kernel;
 use JTG\Mark\MarkApplication;
 
-require_once dirname(__DIR__) . '/vendor/autoload.php';
+require_once dirname(path: __DIR__) . '/vendor/autoload.php';
 
 if ('cli' !== php_sapi_name()) {
     return;
 }
 
 $kernel = new Kernel(appRootDir: dirname(__DIR__));
-$application = $kernel->getContainer()->get(MarkApplication::class);
+$application = $kernel->getContainer()->get(id: MarkApplication::class);
 
 exit($application->run());
