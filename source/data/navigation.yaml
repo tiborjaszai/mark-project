@@ -1,0 +1,13 @@
+items:
+    -   name: Home
+        route_name: home_index
+
+    -   name: Posts
+        route_name: node_show
+        route_params:
+            id: posts.html
+
+    -   name: Lorem ipsum post
+        route_name: node_show
+        route_params:
+            id: posts/2022-11-20_lorem-ipsum.html
